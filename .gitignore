@@ -65,7 +65,7 @@ instance/
 docs/_build/
 
 # PyBuilder
-target/
+rust_extension/target/
 
 # IPython Notebook
 .ipynb_checkpoints

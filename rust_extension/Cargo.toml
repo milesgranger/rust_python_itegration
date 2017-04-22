@@ -1,0 +1,12 @@
+[package]
+name = "rust_learning"
+version = "0.0.1"
+authors = ["Miles Granger <email>"]
+
+[lib]
+name = "rust2py"
+crate-type = ["cdylib"]
+
+[dependencies.cpython]
+git = "https://github.com/dgrunwald/rust-cpython.git"
+default-features = false
